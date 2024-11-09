@@ -48,26 +48,30 @@
         </div>
         <!-- right -->
         <div class="header-border__right">
-          <div class="header-border__search">
+          <form class="header-border__search">
             <input
               type="text"
               placeholder="Search here ..."
               class="header-border__input"
             />
+            <button type="submit">
+              <img
+                class="icon"
+                loading="lazy"
+                src="../asset/image/search.svg"
+                alt=""
+              />
+            </button>
+          </form>
+          <button class="btn">
             <img
               loading="lazy"
-              src="../asset/image/search.svg"
+              src="../asset/image/heart.svg"
               alt=""
               class="icon"
             />
-          </div>
-          <img
-            loading="lazy"
-            src="../asset/image/heart.svg"
-            alt=""
-            class="icon"
-          />
-          <div class="header-border__cart">
+          </button>
+          <button class="header-border__cart btn">
             <img
               loading="lazy"
               src="../asset/image/Group.svg"
@@ -75,7 +79,7 @@
               class="icon"
             />
             <div class="header-border__number">(01)</div>
-          </div>
+          </button>
         </div>
       </div>
     </header>
@@ -87,6 +91,7 @@
         <div class="banner-border__left">
           <img loading="lazy" src="../asset/image/head1.svg" alt="" />
         </div>
+
         <div class="banner-border__right">
           <img loading="lazy" src="../asset/image/head2.svg" alt="" />
           <div class="banner-border__rightwrap">
@@ -138,57 +143,56 @@
         <div class="best-title__action">
           <a href="#" class="best-title_viewaction"> View all </a>
           <div class="best-title__nextaction">
-            <a href="#" class="best-title__nextLeft">
+            <button class="best-title__nextLeft btn">
               <img
                 loading="lazy"
                 src="../asset/image/left.svg"
                 alt=""
                 class="icon_next"
               />
-            </a>
-            <a href="#" class="best-title__nextRight">
+            </button>
+            <button class="best-title__nextRight btn">
               <img
                 loading="lazy"
                 src="../asset/image/right.svg"
                 alt=""
                 class="icon_next"
               />
-            </a>
+            </button>
           </div>
         </div>
       </div>
 
-      <div class="best-product">
-        <div class="best-product__item">
+      <ul class="best-product">
+        <li class="best-product__item">
           <img loading="lazy" src="../asset/image/Rectangle 357.png" alt="" />
           <h4 class="best-product__title">Caramelicious</h4>
           <h4 class="best-product__price">$29.00</h4>
-        </div>
+        </li>
 
-        <div class="best-product__item">
+        <li class="best-product__item">
           <img loading="lazy" src="../asset/image/Rectangle 358.png" alt="" />
           <h4 class="best-product__title">Hazelnut Heaven</h4>
           <h4 class="best-product__price">$29.00</h4>
-        </div>
+        </li>
 
-        <div class="best-product__item">
+        <li class="best-product__item">
           <img loading="lazy" src="../asset/image/Rectangle 359.png" alt="" />
           <h4 class="best-product__title">Maple Magic</h4>
           <h4 class="best-product__price">$29.00</h4>
-        </div>
-      </div>
+        </li>
+      </ul>
 
       <!-- intro 2 -->
       <div class="intro-next">
-        <a href="#" class="intro-next__btnLeft">
+        <button class="intro-next__btnLeft">
           <img
             loading="lazy"
             src="../asset/image/left.svg"
             alt=""
             class="icon_next"
           />
-        </a>
-
+        </button>
         <div class="intro-next__text">
           <em class="intro-text">
             “Habitant aliquet sed suspendisse lectus sit gravida sit morbi
@@ -198,14 +202,14 @@
           <span class="intro-next__author">Sarah Anderson</span>
         </div>
 
-        <a href="#" class="intro-next__btnRight">
+        <button class="intro-next__btnRight">
           <img
             loading="lazy"
             src="../asset/image/right.svg"
             alt=""
             class="icon_next"
           />
-        </a>
+        </button>
       </div>
 
       <!-- Shop category -->
@@ -456,27 +460,41 @@
         </div>
 
         <div class="about-us__social">
-          <img
-            loading="lazy"
-            src="../asset/image/Vector (2).svg"
-            class="about-us__social--icon"
-          />
-          <img
-            loading="lazy"
-            src="../asset/image/inta.png"
-            class="about-us__social--icon"
-          />
-          <img
-            loading="lazy"
-            src="../asset/image/twitter.png"
-            class="about-us__social--icon"
-          />
-          <img src="../asset/image/in.png" class="about-us__social--icon" />
-          <img
-            loading="lazy"
-            src="../asset/image/youtube.png"
-            class="about-us__social--icon"
-          />
+          <button class="btn">
+            <img
+              loading="lazy"
+              src="../asset/image/Vector (2).svg"
+              class="about-us__social--icon"
+            />
+          </button>
+          <button class="btn">
+            <img
+              loading="lazy"
+              src="../asset/image/inta.png"
+              class="about-us__social--icon"
+            />
+          </button>
+          <button class="btn">
+            <img
+              loading="lazy"
+              src="../asset/image/twitter.png"
+              class="about-us__social--icon"
+            />
+          </button>
+          <button class="btn">
+            <img
+              loading="lazy"
+              src="../asset/image/in.png"
+              class="about-us__social--icon"
+            />
+          </button>
+          <button class="btn">
+            <img
+              loading="lazy"
+              src="../asset/image/youtube.png"
+              class="about-us__social--icon"
+            />
+          </button>
         </div>
       </div>
       <img

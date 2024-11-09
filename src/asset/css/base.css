@@ -12,8 +12,7 @@ body {
   scroll-behavior: smooth;
 }
 .wrapper {
-  max-width: 1768px;
+  max-width: 176.8rem;
   width: 100%;
   margin-inline: auto;
-  padding: 0 76pxs;
 }
